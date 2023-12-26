@@ -1,0 +1,141 @@
+/* navbar */
+.navbar{
+ width:99.5%;
+ height: 10%;
+ background: rgba(245, 245, 245, 0.8);
+ margin: 1px auto;
+ 
+}
+.logo_box{
+    width: 25%;
+    height: 100px;
+    background-color: blanchedalmond;
+}
+.logo_img{
+    width: 70px;    
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.search_box{
+    width: 75%;
+    height: 100px;
+    box-shadow: 3px 2px 8px 2px green
+     ;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+   width: 40%;
+   height: 40px;
+   border-radius: 20px;
+   border: 2px solid darkblue;
+   padding: 5px auto;
+}
+.search_input{
+    width: 80%;
+    height:20px ;
+    margin-left: 15px;
+    padding:5px;
+
+}
+.search_input:focus{
+    outline: none;
+}
+.spaceAroun{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.notification{
+   width: 20%; 
+}
+
+     /* left side bar */
+.leftSideBar{
+    width: 22%;
+    height: 82vh;
+    background-color: gray;
+    padding-left:20px ;
+    padding-top: 20px;
+    color: white;
+}     
+.content_logo{
+    margin-right: 10px;
+}
+
+  /* right side */
+  .bodyBox{
+      display: flex;
+      margin-top: 5px;
+  }
+.rightSide{
+    width: 80%;
+    height: 80vh;
+    position: relative;
+    /* background-color:blue; */
+}
+
+.btn_style{
+    width: 20vw;
+    height: 5vh;
+    position: fixed;
+     right :0;
+}
+button{
+   width: 8vw;
+   height: 4vh;
+   background-color:green;
+   color: white; 
+   border-radius: 4px;
+   font-weight: 600;  
+}
+.marginLeft{
+    margin-left:20px;
+    margin-top:50px;
+}
+.category{
+    width: 10vw;
+    height: 10hv;
+    /* border: 1px solid lightcoral; */
+    padding: 5px;
+    overflow: auto;
+}
+.cat_logo{
+    width: 8vw;
+    height: 8hv;
+    border-radius: 50%;
+}
+.cat-img{
+    width: 8vw;
+    height: 14vh;
+    border-radius: 10px;
+    box-shadow:  2px 2px 5px 4px rgb(4, 59, 4,0.5);
+}
+  /* product list */
+.productList{
+    height: 40vh;
+  padding-left:30px ;
+    background-color:rgb(211, 177, 177,0.4);
+    overflow: auto;
+}
+.cardItem{
+    width: 15vw;
+    min-height: 30vh;
+    background-color: whitesmoke;
+    padding: 10px;
+    box-shadow: 2px 3px 3px 2px green;
+    border-radius: 20px;
+}
+.product_img{
+ margin: 2px auto;
+}
+.productcart_container{
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: auto auto auto auto;
+}
